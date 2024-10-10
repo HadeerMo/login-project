@@ -45,7 +45,7 @@ class LoginPageBody extends StatelessWidget {
                 height: 20,
               ),
               const CustomButton(
-                text: "LOGIN.",
+                text: "LOGIN",
                 foreGroundColor: Color(0xffF0E6FF),
                 backGroundColor: Color(0xff6F35A5),
               ),
