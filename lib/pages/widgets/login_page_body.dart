@@ -10,7 +10,6 @@ import 'package:login_page/pages/widgets/custom_text_header.dart';
 class LoginPageBody extends StatelessWidget {
   const LoginPageBody({super.key});
 
-
   @override
   Widget build(BuildContext context) {
     return Stack(
