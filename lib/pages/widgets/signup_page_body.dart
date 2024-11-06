@@ -60,7 +60,7 @@ class SignUpPageBody extends StatelessWidget {
                 startText: "Already have an Account ? ",
                 tailText: "Sign in",
                 onTap: () {
-                  Navigator.of(context).pushNamed(LoginPage.id);
+                  Navigator.of(context).pushReplacementNamed(LoginPage.id);
                 },
               ),
               const SizedBox(

@@ -56,7 +56,7 @@ class LoginPageBody extends StatelessWidget {
                 startText: "Don't have an Account ? ",
                 tailText: "Sign Up",
                 onTap: () {
-                  Navigator.of(context).pushNamed(SignupPage.id);
+                  Navigator.of(context).pushReplacementNamed(SignupPage.id);
                 },
               ),
             ],
